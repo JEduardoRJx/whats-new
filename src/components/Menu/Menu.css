@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+h1 {
+  font-size: 2.25em;
+  color: white;
+}
+span {
+  color: #FFC300;
+}
+
+button {
+  font-size: 1.5em;
+  color: white;
+  background-color: #FFC300;
+  height: 60px;
+  margin-top: 40px;
+}
