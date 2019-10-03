@@ -9,10 +9,8 @@ describe('App', () => {
     wrapper = shallow(<App />)
   })
 
-
   it('should create a snapshot of App', () => {
     expect(wrapper).toMatchSnapshot()
   });
-
 
 });
