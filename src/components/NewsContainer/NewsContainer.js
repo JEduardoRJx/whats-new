@@ -6,7 +6,9 @@ const NewsContainer = (props) => {
   return (
     <section className='news-container'>
       {props.localNews.map(article => {
-        return <NewsArticle headline={article.headline} img={article.img} description={article.description} url={article.url}/>
+        return <NewsArticle 
+        key={article.id} 
+        headline={article.headline} img={article.img} description={article.description} url={article.url}/>
       })}
     </section>
   )
