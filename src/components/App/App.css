@@ -11,3 +11,8 @@
   text-align: center;
   width: 100%;
 }
+
+.form-article-section {
+  width: 80%;
+  overflow: scroll;
+}
