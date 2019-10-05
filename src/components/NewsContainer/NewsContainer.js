@@ -5,7 +5,7 @@ import NewsArticle from '../NewsArticle/NewsArticle.js'
 const NewsContainer = (props) => {
   return (
     <section className='news-container'>
-      {props.localNews.map(article => {
+      {props.news.map(article => {
         return <NewsArticle 
         key={article.id} 
         headline={article.headline} img={article.img} description={article.description} url={article.url}/>
