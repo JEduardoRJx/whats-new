@@ -9,26 +9,36 @@ exports[`Menu should create a snapshot of menu 1`] = `
     </span>
   </h1>
   <button
+    className="localNews"
+    onClick={[Function]}
     type="button"
   >
     IMG Local News
   </button>
   <button
+    className="technologyNews"
+    onClick={[Function]}
     type="button"
   >
     IMG Technology
   </button>
   <button
+    className="entertainmentNews"
+    onClick={[Function]}
     type="button"
   >
     IMG Entertainment
   </button>
   <button
+    className="scienceNews"
+    onClick={[Function]}
     type="button"
   >
     IMG Science
   </button>
   <button
+    className="healthNews"
+    onClick={[Function]}
     type="button"
   >
     IMG Health
