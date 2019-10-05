@@ -19,7 +19,6 @@ class App extends Component {
 
   changeArticle = (event) => {
     if(event.target.className === 'localNews') {
-      console.log('local:', event.target.className)
       this.setState({news: local})
     } else if(event.target.className === 'technologyNews') {
       console.log('tech:', event.target.className)
@@ -41,7 +40,6 @@ class App extends Component {
           <SearchForm />
           <NewsContainer news={this.state.news} />
         </div>
-
       </div>
     );
   }
