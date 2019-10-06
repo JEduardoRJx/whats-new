@@ -14,6 +14,7 @@ class App extends Component {
     super();
     this.state = {
       news: local,
+      query: ''
     }
   }
 
@@ -32,12 +33,21 @@ class App extends Component {
     }
   }
 
+  searchArticle = event => {
+    let query = event.target.value.toUpperCase()
+    let filteredNews = this.state.news.filter(newsArticle => {
+      return newsArticle.headline.toUpperCase().includes(query)
+    })
+    this.setState({news: filteredNews})
+    }
+
   render () {
+    console.log(this.state)
     return (
       <div className="app">
         <Menu changeArticle={this.changeArticle} />
         <div className='form-article-section'>
-          <SearchForm />
+          <SearchForm searchArticle={this.searchArticle}/>
           <NewsContainer news={this.state.news} />
         </div>
       </div>
