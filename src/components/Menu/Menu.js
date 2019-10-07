@@ -11,7 +11,7 @@ const Menu = ({ changeArticle }) => {
     <nav>
       <h1>What's <span>New?</span></h1>
       <button 
-      className='localNews' 
+      className='localNews menu-btn' 
       type='button' 
       onClick={event => changeArticle(event)} 
       >
@@ -20,7 +20,7 @@ const Menu = ({ changeArticle }) => {
         </button>
 
       <button 
-      className='technologyNews' 
+      className='technologyNews menu-btn' 
       type='button'
       onClick={event => changeArticle(event)} 
       >
@@ -29,7 +29,7 @@ const Menu = ({ changeArticle }) => {
       </button>
 
       <button 
-      className='entertainmentNews' 
+      className='entertainmentNews menu-btn' 
       type='button' 
       onClick={event => changeArticle(event)} 
       >
@@ -37,7 +37,7 @@ const Menu = ({ changeArticle }) => {
         Entertainment
       </button>
 
-      <button className='scienceNews' 
+      <button className='scienceNews menu-btn' 
       type='button' 
       onClick={event => changeArticle(event)} 
       >
@@ -45,7 +45,7 @@ const Menu = ({ changeArticle }) => {
         Science
       </button>
 
-      <button className='healthNews' 
+      <button className='healthNews menu-btn' 
       type='button' 
       onClick={event => changeArticle(event)} 
       >
