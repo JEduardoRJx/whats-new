@@ -5,34 +5,34 @@
 }
 
 article {
-  height: 500px;
-  width: 48%;
+  background-color:#CCB69B;
+  border-radius: 45px;
   display: flex;
   flex-direction: column;
-  background-color:#CCB69B;
-  margin: 10px;
+  height: 500px;
   justify-content: space-between;
-  border-radius: 45px;
+  margin: 10px;
+  width: 48%;
 }
 
 img {
-  height: 300px;
-  width:100%;
-  object-fit: cover;
   background-position: 50% 50%;
   border-radius: 45px 45px 0px 0px;
+  height: 300px;
+  object-fit: cover;
+  width:100%;
 }
 
 a {
-  height: 50px;
-  background-color: #AF1B3F;
-  color:#CCB69B;
-  font-size: 1.5em;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  width: 100%;
-  font-weight: bold;
-  text-decoration: none;
+  background-color: #AF1B3F;
   border-radius: 0px 0px 45px 45px;
+  color:#CCB69B;
+  display: flex;
+  font-size: 1.5em;
+  font-weight: bold;
+  height: 50px;
+  justify-content: center;
+  text-decoration: none;
+  width: 100%;
 }
