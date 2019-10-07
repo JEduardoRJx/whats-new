@@ -5,34 +5,42 @@
 }
 
 nav {
-  width: 20%;
+  width: 325px;
   display: flex;
   flex-direction: column;
-  padding: 25px;
+  padding: 20px;
 }
 
 h1 {
   font-size: 2.25em;
-  color: white;
+  color: #CCB69B;
 }
 span {
-  color: #FFC300;
+  color: #AF1B3F;
 }
 
 button {
-  font-size: 1.5em;
-  color: white;
-  background-color: #FFC300;
+  font-size: 2em;
+  color:#CCB69B;
+  background-color: #473144;
   height: 60px;
   margin-top: 40px;
   display: flex;
   justify-content:space-between;
   align-items: center;
+  border-radius: 0px 45px 45px 0px;
+  padding: 0px 10px;
+  border: none;
+  outline: 0;
+}
+
+button:hover,
+button:focus {
+  background-color: #AF1B3F;
 }
 
 .icon {
-  height: auto;
-  width: 25%;
-  height: 100%;
-  fill: white;
+  height: inherit;
+  width: auto;
+  border-radius: 0px;
 }

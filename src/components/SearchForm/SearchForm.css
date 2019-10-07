@@ -10,7 +10,7 @@ form {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px
+  padding: 20px 30px;
 }
 
 input {
@@ -19,8 +19,7 @@ input {
   font-size: 2em;
   border: none;
   background: transparent;
-  color: white;
-  padding: 0 10px;
+  color: #CCB69B;
   outline: none;
 }
 
@@ -29,7 +28,10 @@ input {
   height: 50px;
   margin: 0;
   border: none;
-  background-color: #D471F9;
-  color: white;
-  border-radius: 40px
+  background-color: #AF1B3F;
+  color: #CCB69B;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 1.75em;
+  justify-content: center;
 }
