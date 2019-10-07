@@ -10,7 +10,9 @@ exports[`App should create a snapshot of App 1`] = `
   <div
     className="form-article-section"
   >
-    <SearchForm />
+    <SearchForm
+      searchArticle={[Function]}
+    />
     <NewsContainer
       news={
         Array [
