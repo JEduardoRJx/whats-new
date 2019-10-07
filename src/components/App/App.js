@@ -19,27 +19,25 @@ class App extends Component {
   }
 
   changeArticle = (event) => {
-    console.log("event", event.target.className)
     if(event.target.className.includes('localNews')) {
-      this.setState({news: local})
+      this.setState({news: local});
     } else if(event.target.className.includes('technologyNews')) {
-      console.log('tech:', event.target.className)
-      this.setState({news: technology})
+      this.setState({news: technology});
     } else if(event.target.className.includes('entertainmentNews')) {
-      this.setState({news: entertainment})
+      this.setState({news: entertainment});
     } else if(event.target.className.includes('scienceNews')) {
-      this.setState({news: science})
+      this.setState({news: science});
     } else if(event.target.className.includes('healthNews')) {
-      this.setState({news: health})
+      this.setState({news: health});
     }
   }
 
   searchArticle = event => {
     let query = event.target.value.toUpperCase()
     let filteredNews = this.state.news.filter(newsArticle => {
-      return newsArticle.headline.toUpperCase().includes(query)
+      return newsArticle.headline.toUpperCase().includes(query);
     })
-    this.setState({news: filteredNews})
+    this.setState({news: filteredNews});
     }
 
   render () {

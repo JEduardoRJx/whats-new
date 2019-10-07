@@ -7,28 +7,21 @@ describe('App', () => {
   let wrapper;
 
   beforeEach(() => {
-    wrapper = shallow(<App />)
+    wrapper = shallow(<App />);
   })
 
   it('should create a snapshot of App', () => {
-    expect(wrapper).toMatchSnapshot()
+    expect(wrapper).toMatchSnapshot();
   });
 
   it('should update state when changeArticle is called', () => {
     //setup
-    const wrapper = shallow(<App />)
+    const wrapper = shallow(<App />);
     const mockEvent = {
       target: {
         className: 'localNews'
       }
     }
-    // const mockLocalNews = {
-    //   id: 1,
-    //   headline: 'headline',
-    //   img: 'img url',
-    //   description: 'description',
-    //   url: 'url'
-    // }
     const expected = local
     
     //execution
@@ -36,6 +29,6 @@ describe('App', () => {
 
     //expectation
     expect(wrapper.state('news')).toEqual(expected)
-  })
+  });
 
 });

@@ -5,33 +5,33 @@
 }
 
 form {
-  width: 100%;
-  height: 75px;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
+  display: flex;
+  height: 75px;
+  justify-content: space-between;
   padding: 20px 30px;
+  width: 100%;
 }
 
 input {
-  height: 50px;
-  width:50%;
-  font-size: 2em;
-  border: none;
   background: transparent;
+  border: none;
   color: #CCB69B;
+  font-size: 2em;
+  height: 50px;
   outline: none;
+  width:50%;
 }
 
 .search-form-btn {
-  width: 250px;
-  height: 50px;
-  margin: 0;
-  border: none;
   background-color: #AF1B3F;
-  color: #CCB69B;
   border-radius: 40px;
-  text-align: center;
+  border: none;
+  color: #CCB69B;
   font-size: 1.75em;
+  height: 50px;
   justify-content: center;
+  margin: 0;
+  text-align: center;
+  width: 250px;
 }

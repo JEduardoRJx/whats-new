@@ -5,33 +5,33 @@
 }
 
 nav {
-  width: 325px;
   display: flex;
   flex-direction: column;
   padding: 20px;
+  width: 325px;
 }
 
 h1 {
-  font-size: 2.25em;
   color: #CCB69B;
+  font-size: 2.25em;
 }
 span {
   color: #AF1B3F;
 }
 
 button {
-  font-size: 2em;
-  color:#CCB69B;
-  background-color: #473144;
-  height: 60px;
-  margin-top: 40px;
-  display: flex;
-  justify-content:space-between;
   align-items: center;
+  background-color: #473144;
   border-radius: 0px 45px 45px 0px;
-  padding: 0px 10px;
   border: none;
+  color:#CCB69B;
+  display: flex;
+  font-size: 2em;
+  height: 60px;
+  justify-content:space-between;
+  margin-top: 40px;
   outline: 0;
+  padding: 0px 10px;
 }
 
 button:hover,
@@ -40,7 +40,7 @@ button:focus {
 }
 
 .icon {
+  border-radius: 0px;
   height: inherit;
   width: auto;
-  border-radius: 0px;
 }

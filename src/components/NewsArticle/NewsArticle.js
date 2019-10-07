@@ -2,7 +2,6 @@ import React from 'react';
 import './NewsArticle.css';
 
 const NewsArticle = (props) => {
-  console.log(props.url)
   return (
     <article>
       <img src={props.img} alt='Article' />
