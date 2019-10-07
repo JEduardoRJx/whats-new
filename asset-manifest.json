@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/whats-new/static/css/main.90dbe5c5.chunk.css",
-    "main.js": "/whats-new/static/js/main.923b1445.chunk.js",
-    "main.js.map": "/whats-new/static/js/main.923b1445.chunk.js.map",
-    "runtime-main.js": "/whats-new/static/js/runtime-main.2216c931.js",
-    "runtime-main.js.map": "/whats-new/static/js/runtime-main.2216c931.js.map",
-    "static/js/2.78bb1b38.chunk.js": "/whats-new/static/js/2.78bb1b38.chunk.js",
-    "static/js/2.78bb1b38.chunk.js.map": "/whats-new/static/js/2.78bb1b38.chunk.js.map",
-    "index.html": "/whats-new/index.html",
-    "precache-manifest.ea6838e0e3bf78ab4d0551d2b7950250.js": "/whats-new/precache-manifest.ea6838e0e3bf78ab4d0551d2b7950250.js",
-    "service-worker.js": "/whats-new/service-worker.js",
-    "static/css/main.90dbe5c5.chunk.css.map": "/whats-new/static/css/main.90dbe5c5.chunk.css.map",
-    "static/media/entertainment.svg": "/whats-new/static/media/entertainment.4ab38e56.svg",
-    "static/media/health.svg": "/whats-new/static/media/health.6c5bdeff.svg",
-    "static/media/local.svg": "/whats-new/static/media/local.4479c650.svg",
-    "static/media/science.svg": "/whats-new/static/media/science.272ce4a5.svg",
-    "static/media/technology.svg": "/whats-new/static/media/technology.a24bba27.svg"
+    "main.css": "/JEduardoRJx/whats-new/static/css/main.90dbe5c5.chunk.css",
+    "main.js": "/JEduardoRJx/whats-new/static/js/main.923b1445.chunk.js",
+    "main.js.map": "/JEduardoRJx/whats-new/static/js/main.923b1445.chunk.js.map",
+    "runtime-main.js": "/JEduardoRJx/whats-new/static/js/runtime-main.b9d3dceb.js",
+    "runtime-main.js.map": "/JEduardoRJx/whats-new/static/js/runtime-main.b9d3dceb.js.map",
+    "static/js/2.78bb1b38.chunk.js": "/JEduardoRJx/whats-new/static/js/2.78bb1b38.chunk.js",
+    "static/js/2.78bb1b38.chunk.js.map": "/JEduardoRJx/whats-new/static/js/2.78bb1b38.chunk.js.map",
+    "index.html": "/JEduardoRJx/whats-new/index.html",
+    "precache-manifest.fd87eabb99678457488cd0e83b465ec3.js": "/JEduardoRJx/whats-new/precache-manifest.fd87eabb99678457488cd0e83b465ec3.js",
+    "service-worker.js": "/JEduardoRJx/whats-new/service-worker.js",
+    "static/css/main.90dbe5c5.chunk.css.map": "/JEduardoRJx/whats-new/static/css/main.90dbe5c5.chunk.css.map",
+    "static/media/entertainment.svg": "/JEduardoRJx/whats-new/static/media/entertainment.4ab38e56.svg",
+    "static/media/health.svg": "/JEduardoRJx/whats-new/static/media/health.6c5bdeff.svg",
+    "static/media/local.svg": "/JEduardoRJx/whats-new/static/media/local.4479c650.svg",
+    "static/media/science.svg": "/JEduardoRJx/whats-new/static/media/science.272ce4a5.svg",
+    "static/media/technology.svg": "/JEduardoRJx/whats-new/static/media/technology.a24bba27.svg"
   }
 }
