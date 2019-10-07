@@ -25,4 +25,14 @@ button {
   background-color: #FFC300;
   height: 60px;
   margin-top: 40px;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.icon {
+  height: auto;
+  width: 25%;
+  height: 100%;
+  fill: white;
 }
