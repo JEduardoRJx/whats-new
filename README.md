@@ -2,8 +2,8 @@
 
 What's New is a news article displaying app based off a few categories such as local news, technology, entertainment, science, and health.
 
-## GitHub Pages
-https://jeduardorjx.github.io/overlook
+## Hosted Site
+https://jeduardorjx.github.io/whats-new/
 
 ## Setup
 
