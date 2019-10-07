@@ -19,16 +19,17 @@ class App extends Component {
   }
 
   changeArticle = (event) => {
-    if(event.target.className === 'localNews') {
+    console.log("event", event.target.className)
+    if(event.target.className.includes('localNews')) {
       this.setState({news: local})
-    } else if(event.target.className === 'technologyNews') {
+    } else if(event.target.className.includes('technologyNews')) {
       console.log('tech:', event.target.className)
       this.setState({news: technology})
-    } else if(event.target.className === 'entertainmentNews') {
+    } else if(event.target.className.includes('entertainmentNews')) {
       this.setState({news: entertainment})
-    } else if(event.target.className === 'scienceNews') {
+    } else if(event.target.className.includes('scienceNews')) {
       this.setState({news: science})
-    } else if(event.target.className === 'healthNews') {
+    } else if(event.target.className.includes('healthNews')) {
       this.setState({news: health})
     }
   }
