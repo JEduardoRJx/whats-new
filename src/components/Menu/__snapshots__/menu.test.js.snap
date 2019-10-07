@@ -9,39 +9,64 @@ exports[`Menu should create a snapshot of menu 1`] = `
     </span>
   </h1>
   <button
-    className="localNews"
+    className="localNews menu-btn"
     onClick={[Function]}
     type="button"
   >
-    IMG Local News
+    <img
+      alt="local icon"
+      className="icon"
+      src="local.svg"
+    />
+    Local News
   </button>
   <button
-    className="technologyNews"
+    className="technologyNews menu-btn"
     onClick={[Function]}
     type="button"
   >
-    IMG Technology
+    <img
+      alt="technology icon"
+      className="icon"
+      src="technology.svg"
+    />
+    Technology
   </button>
   <button
-    className="entertainmentNews"
+    className="entertainmentNews menu-btn"
     onClick={[Function]}
     type="button"
   >
-    IMG Entertainment
+    <img
+      alt="entertainment icon"
+      className="icon"
+      src="entertainment.svg"
+    />
+    Entertainment
   </button>
   <button
-    className="scienceNews"
+    className="scienceNews menu-btn"
     onClick={[Function]}
     type="button"
   >
-    IMG Science
+    <img
+      alt="science icon"
+      className="icon"
+      src="science.svg"
+    />
+    Science
   </button>
   <button
-    className="healthNews"
+    className="healthNews menu-btn"
     onClick={[Function]}
     type="button"
   >
-    IMG Health
+    <img
+      alt="health icon"
+      className="icon"
+      src="health.svg"
+    />
+    Health
   </button>
 </nav>
 `;
